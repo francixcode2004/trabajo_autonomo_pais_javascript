@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>¡Bienvenido a Suiza!</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.3.2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- Additional Tailwind CSS for footer -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <!--Hoja de estilos -->
+    <link rel="stylesheet" href="style.css" as="style" />
+    <style>
+      body {
+        background-color: brown;
+      }
+      .inicio {
+        margin-bottom: 20px;
+        position: relative;
+        width: 100%;
+        height: 100vh;
+        background: url("./public/banner.jpeg") no-repeat center center/cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">¡Bienvenido a Suiza!</a>
+          <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="galeria.html" aria-current="page"
+                  >Galería</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gastronomia.html">Gastronomía</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="flora_fauna.html">Flora y Fauna</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="fomulario.html">Formulario</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="inicio">
+      <h2 class="mb-3 display-4 text-dark fw-bold">Un mundo sin límites</h2>
+      <p class="lead text-dark fw-bold">
+        ¡Suiza es un país de montañas, lagos y bosques!
+      </p>
+    </div>
+    <main
+      class="d-flex justify-content-center align-items-center"
+      style="height: 100%"
+    >
+      <div class="text-center">
+        <div class="card mb-3 mx-auto" style="max-width: 540px">
+          <img
+            src="./public/img1.jpg"
+            class="card-img-top"
+            alt="montaña de suiza jungfrau"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Jungfrau</h5>
+            <p class="card-text">
+              El Jungfrau (en alemán "Virgen" o "Doncella") es el pico más alto
+              (4.158 m) del macizo montañoso del mismo nombre. Los otros dos
+              picos son el Eiger ("Ogro") con su famosa cara norte y el Mönch
+              ("Monje") con una altura de 4.099 metros. Al sur del Jungfrau se
+              ubica el Gran Glaciar Aletsch, que con su longitud de casi 24 km y
+              un área de 118 km² es el de mayor tamaño y más largo de los Alpes
+              y de Europa.
+            </p>
+            <p class="card-text">
+              <small class="text-muted"
+                >El nombre Jungfrau (doncella o virgen) se refiere a la cumbre
+                más alta de las tres montañas más prominentes visibles desde la
+                región de Interlaken, siendo los otros el Mönch (monje) y el
+                Eiger (ogro).</small
+              >
+            </p>
+          </div>
+        </div>
+        <div class="card mb-3 mx-auto" style="max-width: 540px">
+          <img
+            src="./public/img2.jpg"
+            class="card-img-top"
+            alt="Trajes tradicionales suizos que nos cuentan la historia del país"
+          />
+          <div class="card-body">
+            <h5 class="card-title">
+              Trajes tradicionales suizos que nos cuentan la historia del país
+            </h5>
+            <p class="card-text">
+              Durante siglos el pueblo suizo usó vestimentas particulares
+              asociadas con su ocupación o sus orígenes. Ya sea que alguien
+              fuera granjero, viticultor, cocinero o funcionario, todos podían
+              inferir quién era y de dónde venía simplemente mirando la ropa que
+              llevaba puesta. Era como llevar un cartel que mostrara el
+              documento de identidad de la persona o hablar con un acento que
+              revelara el lugar de nacimiento.
+            </p>
+            <p class="card-text">
+              <small class="text-muted"
+                >En las zonas protestantes, por ejemplo, la represión puritana
+                determinaba que la ropa fuera más modesta y sencilla; en los
+                cantones católicos, la pompa y circunstancia de sus ceremonias
+                religiosas tenía una influencia en el gusto de las personas por
+                prendas más fastuosas.</small
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+      <div
+        class="container d-flex flex-column flex-sm-row justify-content-between align-items-center"
+      >
+        <p class="mb-2 mb-sm-0">
+          &copy; 2024 Conoce Suiza. Todos los derechos reservados. Francisco
+          López
+        </p>
+        <nav class="d-flex gap-4">
+          <a href="#" class="text-white text-decoration-none"
+            >Términos y Condiciones</a
+          >
+          <a href="#" class="text-white text-decoration-none"
+            >Política de Privacidad</a
+          >
+          <a
+            href="https://github.com/francixcode2004"
+            class="text-white text-decoration-none d-flex align-items-center"
+          >
+            <img
+              src="./public/github.png"
+              alt="Logotipo de GitHub"
+              class="icon"
+              style="height: 24px; width: 24px"
+            />
+            <span class="ms-2">GitHub</span>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/francisco-lopez-61a007304/"
+            class="text-white text-decoration-none d-flex align-items-center"
+          >
+            <img
+              src="./public/logotipo-de-linkedin.png"
+              alt="Logotipo de LinkedIn"
+              class="icon"
+              style="height: 24px; width: 24px"
+            />
+            <span class="ms-2">LinkedIn</span>
+          </a>
+        </nav>
+      </div>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+      integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
